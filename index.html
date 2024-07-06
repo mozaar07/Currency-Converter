@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="img/CCimg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header><h1>Currency Converter</h1></header>
+            <div class="c_icon">
+                <!-- <img src="img/CCimg.png" alt="CCimg"> -->
+            </div>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="number" id="user_Value" min="1" name="user_Input" placeholder=" 100">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <div class="select_container">
+                        <select name="from"></select>
+                    </div>
+                </div>
+                <button id="reverse_icon">
+                    <i class="fa-solid fa-rotate"></i>
+                </button>
+                <!-- <div class="reverse_icon">
+                    <i class="fa-solid fa-rotate"></i>
+                </div> -->
+                <div class="to">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <div class="select_container">
+                        <select name="to"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result">
+                <p>1 USD = 80 INR</p>
+            </div>
+            <button class="convert_btn">Convert</button>
+            <div class="show_result">
+                <p>1 USD = 80 INR</p>
+            </div>
+        </div>
+    </main>
+    <script src="currencyCode.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

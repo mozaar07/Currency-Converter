@@ -1,0 +1,108 @@
+body{
+    background-color: #01002a;
+    background-image: url(img/cityscape.jpg);
+    margin: 5rem 0rem 0rem 0rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 33rem;
+    width: 25rem;
+    margin-top: -3.8rem;
+    padding-top: 0.1rem;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background-color: rgba(2,0,36,1);
+    box-shadow: 0rem 0rem 1rem  rgba(2,0,36,1);
+    opacity: 90%;
+    color: floralwhite;
+    text-align: center;
+}
+.c_icon{
+    height: 4rem;
+    width: 4rem;
+    background-image: url(img/CCimg.png);
+    background-position: center;
+    background-size: contain;
+    margin-inline: auto;
+}
+
+.amount p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#user_Value{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1rem;
+    opacity: 100%;
+    outline: none;
+    border-radius: .5rem;
+    border: none;
+}
+
+#reverse_icon{
+    cursor: pointer;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.dropdown img{
+    
+}
+
+select{
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.result{
+    font-size: .85rem;
+    margin-top: 1rem;
+}
+
+.convert_btn{
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    opacity: 100%;
+    outline: none;
+    border-radius: .6rem;
+    background-color: blue;
+    border: none;
+    opacity: 1;
+    font-weight: bold;
+    color: azure;
+    cursor: pointer;
+    /* margin-top: .5rem; */
+}
+
+.show_result{
+    height: 3rem;
+    width: 20rem;
+    font-size: 1rem;
+    opacity: 100%;
+    outline: none;
+    border-radius: .6rem;
+    background-color: #007FFF;
+    margin-inline: auto;
+    margin-top: -.5rem;
+}
+.show_result p{
+    transform: translate(0%, 60%);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
